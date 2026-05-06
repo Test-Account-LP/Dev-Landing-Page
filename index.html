@@ -20,10 +20,30 @@
     <li><a href="#use-cases">Use Cases</a></li>
     <li><a href="https://developer.algorand.org/docs/">Platform</a></li>
     <li><a href="https://developer.algorand.org/docs/concepts/overview/">Protocol</a></li>
-    <li><a href="#focus">Focus Areas</a></li>
+    <li><a href="#explore">Explore Hub</a></li>
     <li><a href="https://developer.algorand.org/docs/get-started/algokit/" class="nav-cta">Get Started</a></li>
   </ul>
+  <button class="nav-hamburger" id="nav-hamburger" aria-label="Open menu" onclick="toggleMobileNav()">
+    <span></span><span></span><span></span>
+  </button>
 </nav>
+
+<!-- MOBILE NAV OVERLAY -->
+<div class="mobile-nav-overlay" id="mobile-nav-overlay" onclick="toggleMobileNav()"></div>
+<div class="mobile-nav-drawer" id="mobile-nav-drawer">
+  <div class="mobile-nav-header">
+    <div class="nav-logo-mark">A</div>
+    <button class="mobile-nav-close" onclick="toggleMobileNav()">✕</button>
+  </div>
+  <nav class="mobile-nav-links">
+    <a href="https://developer.algorand.org/docs/get-started/algokit/" onclick="toggleMobileNav()">Build</a>
+    <a href="#use-cases" onclick="toggleMobileNav()">Use Cases</a>
+    <a href="https://developer.algorand.org/docs/" onclick="toggleMobileNav()">Platform</a>
+    <a href="https://developer.algorand.org/docs/concepts/overview/" onclick="toggleMobileNav()">Protocol</a>
+    <a href="#explore" onclick="toggleMobileNav()">Explore Hub</a>
+  </nav>
+  <a href="https://developer.algorand.org/docs/get-started/algokit/" class="btn-primary" style="margin: 24px; display: block; text-align: center;">Get Started →</a>
+</div>
 
 <!-- HERO -->
 <section class="hero">

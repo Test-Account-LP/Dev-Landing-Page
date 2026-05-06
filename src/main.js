@@ -1,3 +1,13 @@
+// Mobile nav toggle
+window.toggleMobileNav = function() {
+  const drawer = document.getElementById('mobile-nav-drawer');
+  const overlay = document.getElementById('mobile-nav-overlay');
+  const isOpen = drawer.classList.contains('open');
+  drawer.classList.toggle('open', !isOpen);
+  overlay.classList.toggle('open', !isOpen);
+  document.body.style.overflow = isOpen ? '' : 'hidden';
+};
+
 const routes = {
   web2: {
     title: 'Web2 Developer',
