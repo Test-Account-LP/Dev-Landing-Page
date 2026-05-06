@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Build on Algorand — Developer Hub</title>
+  <meta name="description" content="Production-ready blockchain for developers. Build with Python, TypeScript, and Go on the world's most reliable chain."/>
+  <link rel="stylesheet" href="/src/style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="/" class="nav-logo">
+    <div class="nav-logo-mark">A</div>
+    Algorand Developers
+  </a>
+  <ul class="nav-links">
+    <li><a href="https://developer.algorand.org/docs/get-started/algokit/">Build</a></li>
+    <li><a href="#use-cases">Use Cases</a></li>
+    <li><a href="https://developer.algorand.org/docs/">Platform</a></li>
+    <li><a href="https://developer.algorand.org/docs/concepts/overview/">Protocol</a></li>
+    <li><a href="#focus">Focus Areas</a></li>
+    <li><a href="https://developer.algorand.org/docs/get-started/algokit/" class="nav-cta">Get Started</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-grid-bg"></div>
+  <div class="hero-content">
+    <div class="hero-badge">
+      Zero Downtime · Instant Finality · Production Ready
+    </div>
+    <h1>Build things that<br/><span class="accent" style="color: var(--green);">actually work</span></h1>
+    <p class="hero-sub" style="font-family: var(--font-body); font-weight: 400;">The production-grade protocol for developers. Tell us what you're building, and we'll show you the path.</p>
+
+    <!-- SEARCH DISCOVERY -->
+    <div id="hero-main-content">
+      <div class="search-container">
+        <div class="search-bar-wrap">
+          <span class="search-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+          </span>
+          <input type="text" id="search-input" placeholder="How do I build..." autocomplete="off">
+        </div>
+        <div id="search-suggestions" class="search-suggestions">
+          <!-- Suggestions injected here -->
+        </div>
+        <div id="trending-tags" class="trending-tags">
+          <!-- Tags injected here -->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- PROTOCOL STRIP -->
+<div class="protocol-strip">
+  <div class="section-inner">
+    <div class="proto-item">
+      <div class="proto-stat">&lt;3s</div>
+      <div class="proto-label">Transaction Finality</div>
+      <div class="proto-sub">// INSTANT SETTLEMENT</div>
+    </div>
+    <div class="proto-item">
+      <div class="proto-stat">100%</div>
+      <div class="proto-label">Network Uptime</div>
+      <div class="proto-sub">// SINCE GENESIS (2019)</div>
+    </div>
+    <div class="proto-item">
+      <div class="proto-stat">10k+</div>
+      <div class="proto-label">TPS Capacity</div>
+      <div class="proto-sub">// READY FOR SCALE</div>
+    </div>
+    <div class="proto-item">
+      <div class="proto-stat">~$0</div>
+      <div class="proto-label">Transaction Fees</div>
+      <div class="proto-sub">// 0.001 ALGO NATIVE</div>
+    </div>
+  </div>
+</div>
+
+<!-- DEVELOPER PATHWAYS -->
+<section class="pathways" id="pathways" style="border-top: 1px solid var(--border); background: var(--bg);">
+  <div class="section-inner">
+    <div style="text-align: center; margin-bottom: 64px;">
+      <span class="section-label">// CHOOSE_YOUR_PATHWAY</span>
+      <h2 class="section-title">One chain. Specific toolkits.</h2>
+      <p style="color: var(--muted); max-width: 700px; margin: 24px auto;">We've optimized the entry point for every developer role. Select your focus to see your recommended stack.</p>
+    </div>
+
+    <!-- PATHWAY SWITCHER -->
+<div class="pathway-switcher">
+  <div class="pathway-nav">
+    <button class="path-nav-btn active" onclick="switchPath('web2', this, true)">Web2 / App</button>
+    <button class="path-nav-btn" onclick="switchPath('enterprise', this, true)">Enterprise</button>
+    <button class="path-nav-btn" onclick="switchPath('rwa', this, true)">TradFi / RWA</button>
+    <button class="path-nav-btn" onclick="switchPath('payments', this, true)">NGO / Payments</button>
+    <button class="path-nav-btn" onclick="switchPath('ai', this, true)">AI / Agentic</button>
+    <button class="path-nav-btn" onclick="switchPath('wallet', this, true)">Web3 Native</button>
+  </div>
+
+  <div id="pathway-display" class="pathway-display">
+    <!-- JS Injected Content -->
+  </div>
+</div>
+  </div>
+</section>
+<!-- INSPIRATION SECTION -->
+<section class="inspiration" id="inspiration">
+  <div class="section-inner">
+    <span class="section-label">// INSPIRATION_PLATFORM</span>
+    <h2 class="section-title" style="margin-bottom: 64px;">Choose a starter.<br/>Code the solution.</h2>
+    
+    <!-- TEMPLATE DASHBOARD -->
+    <div class="inspiration-dashboard">
+      <div id="dash-sidebar" class="dashboard-sidebar">
+        <!-- JS Injected Bullets -->
+      </div>
+      <div class="dashboard-main">
+        <div class="terminal-header">
+          <div class="term-dot" style="background: #ff5f56;"></div>
+          <div class="term-dot" style="background: #ffbd2e;"></div>
+          <div class="term-dot" style="background: #27c93f;"></div>
+          <div style="margin-left: 12px; font-family: var(--font-mono); font-size: 11px; color: var(--muted2); opacity: 0.5;">zsh — algokit init example</div>
+        </div>
+        <div id="dash-terminal" class="code-terminal">
+          <!-- JS Injected Code -->
+        </div>
+      </div>
+    </div>
+
+    <!-- YOUTUBE SPOTLIGHT -->
+    <div class="yt-spotlight">
+      <div id="yt-embed" class="yt-embed">
+        <!-- JS Injected Iframe -->
+      </div>
+      <div id="yt-info" class="yt-info">
+        <!-- JS Injected Content -->
+      </div>
+    </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- COMMUNITY BANNER -->
+<section class="community-banner">
+  <div class="section-inner banner-flex">
+    <div class="banner-text">
+      <span class="banner-label">ECOSYSTEM__EXAMPLES</span>
+      <p>Not finding what you need? Browse 100+ projects built by the Algorand community.</p>
+    </div>
+    <a href="https://www.algorand.foundation/ecosystem" class="btn-primary" style="padding: 12px 24px; font-size: 14px; white-space: nowrap;">Explore Ecosystem Apps →</a>
+  </div>
+</section>
+
+
+<!-- SOLUTION HUB (Double Cycle) -->
+<section class="solutions" id="use-cases" style="background: #001324; padding: 140px 0;">
+  <div class="section-inner">
+    <div style="margin-bottom: 80px; display: grid; grid-template-columns: 1fr 1.5fr; gap: 64px; align-items: end;">
+      <div>
+        <span class="section-label" style="color: var(--green);">// SOLUTION_ARCHITECTURE</span>
+        <h2 class="section-title">Engineered for the world's<br/>most critical use cases.</h2>
+      </div>
+      <p style="color: var(--muted); font-size: 18px; line-height: 1.6; max-width: 600px;">
+        Algorand provides the scale, security, and finality required for high-stakes decentralized applications. Explore our core verticals to see how our protocol transforms the future of machine economy, institutional finance, and global impact.
+      </p>
+    </div>
+
+    <!-- HUB DASHBOARD -->
+    <div class="hub-container">
+      <!-- LEFT: ROOT CATEGORIES -->
+      <div class="hub-nav">
+        <div class="hub-root-item active" onclick="switchHub('ai', this)">
+          <span class="root-number">01</span>
+          <h3>Agentic Commerce</h3>
+          <p>Machine-to-machine economy.</p>
+          <div class="root-progress"><div class="root-progress-bar"></div></div>
+        </div>
+        <div class="hub-root-item" onclick="switchHub('finance', this)">
+          <span class="root-number">02</span>
+          <h3>Digital Finance</h3>
+          <p>Institutional grade assets.</p>
+        </div>
+        <div class="hub-root-item" onclick="switchHub('impact', this)">
+          <span class="root-number">03</span>
+          <h3>Global Impact</h3>
+          <p>NGO aid and direct value.</p>
+        </div>
+      </div>
+
+      <!-- MIDDLE/RIGHT: ACTIVE VIEW -->
+      <div id="hub-display" class="hub-display">
+        <!-- JS Injected Content -->
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- CONTENT HUBS -->
+<section id="explore" style="background: var(--navy); border-top: 1px solid var(--border); padding: 140px 0;">
+  <div class="section-inner">
+    <div style="display: grid; grid-template-columns: 1fr 1.5fr; gap: 64px; align-items: end; margin-bottom: 80px;">
+      <div>
+        <span class="section-label">// EXPLORE_THE_PORTAL</span>
+        <h2 class="section-title">Everything you need<br/>to build on Algorand.</h2>
+      </div>
+      <p style="color: var(--muted); font-size: 18px; line-height: 1.7;">
+        From your first smart contract to running validator infrastructure, the Algorand Developer Portal is organized into clear content areas. Find where you fit and go deep.
+      </p>
+    </div>
+
+    <!-- TAB NAV + CONTENT PANEL -->
+    <div class="content-hub-layout">
+      <!-- LEFT: Tab Nav -->
+      <div class="hub-tab-nav">
+        <button class="hub-tab active" onclick="switchContentHub('start', this)" id="tab-start">
+          <span class="hub-tab-num">01</span>
+          <div>
+            <div class="hub-tab-title">Getting Started</div>
+            <div class="hub-tab-sub">Zero to deployed in minutes</div>
+          </div>
+        </button>
+        <button class="hub-tab" onclick="switchContentHub('concepts', this)" id="tab-concepts">
+          <span class="hub-tab-num">02</span>
+          <div>
+            <div class="hub-tab-title">Core Concepts</div>
+            <div class="hub-tab-sub">Accounts, transactions, smart contracts</div>
+          </div>
+        </button>
+        <button class="hub-tab" onclick="switchContentHub('algokit', this)" id="tab-algokit">
+          <span class="hub-tab-num">03</span>
+          <div>
+            <div class="hub-tab-title">Build with AlgoKit</div>
+            <div class="hub-tab-sub">The official Algorand dev toolkit</div>
+          </div>
+        </button>
+        <button class="hub-tab" onclick="switchContentHub('nodes', this)" id="tab-nodes">
+          <span class="hub-tab-num">04</span>
+          <div>
+            <div class="hub-tab-title">Run a Node</div>
+            <div class="hub-tab-sub">Join the network, earn staking rewards</div>
+          </div>
+        </button>
+        <button class="hub-tab" onclick="switchContentHub('reference', this)" id="tab-reference">
+          <span class="hub-tab-num">05</span>
+          <div>
+            <div class="hub-tab-title">Reference & APIs</div>
+            <div class="hub-tab-sub">SDK docs, REST API, ARC standards</div>
+          </div>
+        </button>
+      </div>
+
+      <!-- RIGHT: Content Panel -->
+      <div class="hub-content-panel" id="hub-content-panel">
+        <!-- rendered by JS -->
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- AUTH HIGHLIGHT -->
+<section class="auth-section">
+  <div class="section-inner">
+    <div class="auth-highlight">
+      <div>
+        <span class="section-label" style="color: var(--blue);">// AUTHENTICATION_REINVENTED</span>
+        <h2 class="section-title">Web2 UX. Web3 ownership.</h2>
+        <p style="color: var(--muted); font-size: 18px; margin-bottom: 32px; line-height: 1.6;">Highlight how authentication works: Liquid Auth uses FIDO2 Passkeys to derive Algorand accounts directly from the hardware security module on the user's device. No seed phrases. No friction.</p>
+        <ul style="list-style: none; display: flex; flex-direction: column; gap: 16px;">
+          <li style="display: flex; align-items: start; gap: 12px; font-size: 15px;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--blue)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            <span>Hardware-level security via FaceID / TouchID</span>
+          </li>
+          <li style="display: flex; align-items: start; gap: 12px; font-size: 15px;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--blue)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            <span>Cross-platform support (Apple, Google, Windows)</span>
+          </li>
+          <li style="display: flex; align-items: start; gap: 12px; font-size: 15px;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--blue)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            <span>Seamless developer integration via Rocca SDK</span>
+          </li>
+        </ul>
+      </div>
+      <div class="auth-code">
+<pre>// Authenticate with Passkey
+const session = await liquid.auth({
+  persona: 'global',
+  transport: 'fido2'
+});
+
+// Derived Algorand Address
+console.log(session.address);
+// "W6J3...Y7Q4"</pre>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY ALGORAND -->
+<section class="why-algorand" style="border-top: 1px solid var(--border); padding: 120px 0;">
+  <div class="section-inner">
+    <!-- Header row -->
+    <div style="display: grid; grid-template-columns: 1fr 1.8fr; gap: 64px; align-items: end; margin-bottom: 80px;">
+      <div>
+        <span class="section-label">// THE_ALGORAND_ADVANTAGE</span>
+        <h2 class="section-title" style="margin-bottom: 0;">Built different.<br/>By design.</h2>
+      </div>
+      <p style="color: var(--muted); font-size: 18px; line-height: 1.7;">
+        Algorand's Pure Proof-of-Stake consensus delivers guarantees that most blockchains only promise. These aren't marketing claims — they're protocol properties you can depend on in production.
+      </p>
+    </div>
+
+    <!-- Stats bar -->
+    <div class="why-stats-bar">
+      <div class="why-stat">
+        <div class="why-stat-value">&lt;3s</div>
+        <div class="why-stat-label">Transaction finality</div>
+      </div>
+      <div class="why-stat-divider"></div>
+      <div class="why-stat">
+        <div class="why-stat-value">6+ yrs</div>
+        <div class="why-stat-label">Zero downtime</div>
+      </div>
+      <div class="why-stat-divider"></div>
+      <div class="why-stat">
+        <div class="why-stat-value">~$0.001</div>
+        <div class="why-stat-label">Average tx fee</div>
+      </div>
+      <div class="why-stat-divider"></div>
+      <div class="why-stat">
+        <div class="why-stat-value">10K+</div>
+        <div class="why-stat-label">TPS capacity</div>
+      </div>
+      <div class="why-stat-divider"></div>
+      <div class="why-stat">
+        <div class="why-stat-value">0</div>
+        <div class="why-stat-label">Forks ever</div>
+      </div>
+    </div>
+
+    <!-- Feature list -->
+    <div class="why-feature-list">
+      <div class="why-feature">
+        <div class="why-feature-dot"></div>
+        <div>
+          <div class="why-feature-title">Instant, Deterministic Finality</div>
+          <div class="why-feature-desc">Transactions are final the moment they're confirmed. No reorgs. No probabilistic settlement. Build with confidence.</div>
+        </div>
+      </div>
+      <div class="why-feature">
+        <div class="why-feature-dot"></div>
+        <div>
+          <div class="why-feature-title">Carbon-Negative by Protocol</div>
+          <div class="why-feature-desc">Designed from the outset to be the greenest L1. Suitable for ESG mandates and impact-first organizations.</div>
+        </div>
+      </div>
+      <div class="why-feature">
+        <div class="why-feature-dot"></div>
+        <div>
+          <div class="why-feature-title">Native ASAs at Layer 1</div>
+          <div class="why-feature-desc">Tokens, NFTs, and stablecoins are first-class primitives — no separate token contracts, no ERC-20 overhead.</div>
+        </div>
+      </div>
+      <div class="why-feature">
+        <div class="why-feature-dot"></div>
+        <div>
+          <div class="why-feature-title">Atomic Composability</div>
+          <div class="why-feature-desc">Bundle up to 16 transactions that succeed or fail atomically. Swap, pay, and call a contract in one round-trip.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- FINAL CTA: DON'T SEE YOURSELF? -->
+<section class="final-cta" style="padding: 120px 0; border-top: 1px solid var(--border);">
+  <div class="section-inner" style="text-align: center;">
+    <span class="section-label" style="color: var(--green);">// THE_INFINITE_CHAIN</span>
+    <h2 class="section-title">Don't see your use case?<br/>Don't worry.</h2>
+    <p style="color: var(--muted); max-width: 600px; margin: 24px auto; font-size: 20px;">Algorand is a general-purpose, high-performance L1. If you can imagine it, you can build it. Our developer community is here to help you bridge the gap.</p>
+    <div style="display: flex; gap: 16px; justify-content: center; margin-top: 48px;">
+      <a href="https://discord.gg/algorand" class="btn-primary">Join Discord Community</a>
+      <a href="https://forum.algorand.org/" class="btn-secondary">Explore Dev Forums</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <div class="footer-brand-name">Algorand Foundation</div>
+      <p style="font-size: 13px; color: var(--muted); margin-bottom: 24px;">Untangling the web of blockchain development.</p>
+    </div>
+    <div>
+      <div class="footer-link-title">Build</div>
+      <a href="#" class="footer-link">Quickstart</a>
+      <a href="#" class="footer-link">AlgoKit</a>
+      <a href="#" class="footer-link">SDK Reference</a>
+    </div>
+    <div>
+      <div class="footer-link-title">Use Cases</div>
+      <a href="#" class="footer-link">RWA</a>
+      <a href="#" class="footer-link">Agentic Commerce</a>
+      <a href="#" class="footer-link">Humanitarian</a>
+    </div>
+    <div>
+      <div class="footer-link-title">Platform</div>
+      <a href="#" class="footer-link">Rocca SDK</a>
+      <a href="#" class="footer-link">Intermezzo</a>
+      <a href="#" class="footer-link">Liquid Auth</a>
+    </div>
+  </div>
+</footer>
+
+<script type="module" src="/src/main.js"></script>
+</body>
+</html>
